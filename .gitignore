@@ -1,5 +1,4 @@
 # Remove Generated Directories
-venv
-.idea
-venv/*
-.idea/*
+venv/
+.idea/
+
