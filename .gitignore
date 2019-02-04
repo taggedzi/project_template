@@ -1,1 +1,3 @@
+# Remove Generated Directories
 venv
+.idea
