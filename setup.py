@@ -75,11 +75,11 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url='https://github.com/...',  # Optional
+    url='https://github.com/taggedzi/project_template',  # Optional
 
     # This should be your name or the name of the organization which owns the
     # project.
-    author='',  # Optional
+    author='Matthew Craig',  # Optional
 
     # This should be a valid email address corresponding to the author listed
     # above.
@@ -156,8 +156,8 @@ setup(
     # Similar to `install_requires` above, these must be valid existing
     # projects.
     extras_require={  # Optional
-        'dev': ['check-manifest'],
-        'test': ['coverage'],
+        'dev': ['check-manifest', 'coverage', 'pytest', 'tox'],
+        'test': ['coverage', 'pytest', 'tox'],
     },
 
     # If there are data files included in your packages that need to be
@@ -165,9 +165,9 @@ setup(
     #
     # If using Python 2.6 or earlier, then these have to be included in
     # MANIFEST.in as well.
-    package_data={  # Optional
-        # 'sample': ['package_data.dat'],
-    },
+    # package_data={  # Optional
+    #     'sample': ['package_data.dat'],
+    # },
 
     # Although 'package_data' is the preferred approach, in some case you may
     # need to place data files outside of your packages. See:

@@ -1,0 +1,4 @@
+check-manifest>=0.37
+coverage>=4.5.0
+pytest>=4.2.0
+tox>=3.7.0
