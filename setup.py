@@ -2,16 +2,11 @@
 # -*- coding: utf-8 -*-
 """
 This template file was taken from: https://github.com/pypa/sampleproject
-And modified for my purposes.
+And modified by https://github.com/taggedzi/project_template
 """
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
 from os import path
-# io.open is needed for projects that support Python 2.7
-# It ensures open() defaults to text mode with universal newlines,
-# and accepts an argument to specify the text encoding
-# Python 3 only projects can skip this import
-from io import open
 
 here = path.abspath(path.dirname(__file__))
 
