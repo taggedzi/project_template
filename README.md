@@ -14,7 +14,15 @@ What is included in this project:
 What is NOT included in this project:
 
 * Pre-existing Project folder
-* CI testing framework (CircleCI/Jenkins/Travis)
+* Integration for a CI testing framework or environment such as CircleCI/Jenkins/Travis. (All wonderful services)
 
 I have attempted to be agnostic to platforms and vendors, and yet include the best in class tools 
 (or best practice tools) as I understand them.
+
+## How to Use ##
+
+1. When you download this project you will want to add a folder to the `./src` directory that will contain your new
+project. Do not forget your `./src/your_project/__init__.py` file!
+1. You will want to modify your `./setup.py` to reflect your project. Detailed instructions included.
+1. You will want to add your dependencies to `./requirements.txt` and `./requirements_dev.txt`
+1. You will want to modify `./tox.ini` to include any test parameters you wish
