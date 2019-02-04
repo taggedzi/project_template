@@ -26,3 +26,5 @@ project. Do not forget your `./src/your_project/__init__.py` file!
 1. You will want to modify your `./setup.py` to reflect your project. Detailed instructions included.
 1. You will want to add your dependencies to `./requirements.txt` and `./requirements_dev.txt`
 1. You will want to modify `./tox.ini` to include any test parameters you wish
+1. **IF you want** to use `Sphinx` for documentation run the quickstart OR configure your Sphinx make scripts. (See Sphinx documentation.) IF you don't want to you use it you can remove references to it from `./requirements_dev.txt` and `./setup.py`
+
