@@ -5,7 +5,7 @@ generic Python project.  I have pulled from multiple sources to generate this co
 
 What is included in this project:
 
-* Basic support for Python2 and Python3.  
+* Basic support for Python3.  
 * Basic setup.py template with descriptions
 * PyTest (pytest.ini)
 * Tox (tox.ini)
