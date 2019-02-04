@@ -156,8 +156,8 @@ setup(
     # Similar to `install_requires` above, these must be valid existing
     # projects.
     extras_require={  # Optional
-        'dev': ['check-manifest', 'coverage', 'pytest', 'Sphinx', 'tox'],
-        'test': ['coverage', 'pytest', 'Sphinx', 'tox'],
+        'dev': ['check-manifest', 'coverage', 'pytest', 'pytest-cov', 'Sphinx', 'tox'],
+        'test': ['pytest', 'pytest-cov', 'Sphinx', 'tox'],
     },
 
     # If there are data files included in your packages that need to be
